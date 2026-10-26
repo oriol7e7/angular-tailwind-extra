@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './hero.component.css',
   templateUrl: './hero.component.html',
 })
-export class Hero {}
+export class Hero {
+  public handleClick() {
+    window.open('https://fortnite.com', '_blank');
+  }
+}
