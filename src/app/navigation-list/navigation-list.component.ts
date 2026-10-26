@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './navigation-list.component.css',
   templateUrl: './navigation-list.component.html',
 })
-export class NavigationList {}
+export class NavigationList {
+  public toggleDark() {
+    document.documentElement.classList.toggle('dark');
+  }
+}
