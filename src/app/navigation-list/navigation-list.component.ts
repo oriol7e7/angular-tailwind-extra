@@ -9,5 +9,6 @@ import { Component } from '@angular/core';
 export class NavigationList {
   public toggleDark() {
     document.documentElement.classList.toggle('dark');
+    console.log('clicked');
   }
 }
